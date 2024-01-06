@@ -1,6 +1,10 @@
 // import { DevtoolsLazy } from "@livestore/devtools-react";
 import { Text, View } from "react-native";
 // import { schema } from "../schema";
+import is from "@sindresorhus/is";
+import { test } from "../test";
+
+console.log(is("🦄"));
 
 const App = () => {
   return (
@@ -10,6 +14,7 @@ const App = () => {
   );
 };
 
+console.log(test());
 // console.log(schema);
 
 export default function Page() {
